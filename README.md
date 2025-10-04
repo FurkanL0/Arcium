@@ -372,3 +372,20 @@ docker run -d \
   ```
 
 <img width="837" height="330" alt="image" src="https://github.com/user-attachments/assets/75e36310-7ad2-421e-9b82-68007dc5ce45" />
+
+## Loglar ; 
+
+- Node Status Kontrol Etme ( En Başta Aldığımız Offset ile misal benim 777777777 
+
+```bash
+arcium arx-info <your-node-offset> --rpc-url https://api.devnet.solana.com
+```
+
+- Aktif İse Kontrol Etme ; 
+```bash
+arcium arx-active <your-node-offset> --rpc-url https://api.devnet.solana.com
+```
+
+<img width="844" height="117" alt="image" src="https://github.com/user-attachments/assets/65b22bfb-4c80-49a1-9996-4b615109d8dc" />
+
+
