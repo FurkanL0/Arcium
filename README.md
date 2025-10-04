@@ -339,6 +339,9 @@ arcium init-cluster \
 sudo ufw allow 8080/tcp
 ```
 
+<img width="818" height="101" alt="image" src="https://github.com/user-attachments/assets/2a8fc21b-a3f7-4db5-8657-5df0dd2ba633" />
+
+
 ## Başaracağız Az Kaldı Log Dizini Ve Hazırlık 
 
 ```bash
