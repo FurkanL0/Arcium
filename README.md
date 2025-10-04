@@ -280,3 +280,7 @@ arcium init-arx-accs \
   --ip-address <your-node-ip> \
   --rpc-url https://api.devnet.solana.com
 ```
+
+- "--ip-address <your-node-ip> \" <your-node-ip> kısmına sunucu ip adresi.
+- "--node-offset <your-node-offset> \" burada <your-node-offset> kısmına 8 ila 10 haneli random ID yazacaksınız amaç çakışmaması için farklı seçmek node offset'ide kaydedin bir kenara.
+-  "--rpc-url https://api.devnet.solana.com" rpc'mizi almıştık zaten api devnet olan rpc'yi kendi RPC'miz ile değiştiriyoruz https://devnet.helius-rpc.com/?api-key=gel-yanima-gel-gel-neset-ertas.
