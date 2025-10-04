@@ -344,3 +344,6 @@ sudo ufw allow 8080/tcp
 ```bash
 mkdir -p arx-node-logs && touch arx-node-logs/arx.log
 ```
+
+<img width="1017" height="61" alt="image" src="https://github.com/user-attachments/assets/d97c470d-717a-4e40-9404-0d641b1ad226" />
+
