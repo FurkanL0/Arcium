@@ -333,3 +333,8 @@ arcium init-cluster \
 
   <img width="916" height="151" alt="image" src="https://github.com/user-attachments/assets/4d7ab408-fd19-4607-a94a-e3ffa9e0c59a" />
 
+## TCP Port 
+
+```bash
+sudo ufw allow 8080/tcp
+```
