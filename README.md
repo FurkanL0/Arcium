@@ -66,6 +66,9 @@ sudo usermod -aG docker $USER
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
+<img width="505" height="164" alt="image" src="https://github.com/user-attachments/assets/5a8a34ad-5fbc-4b6e-a5c5-883f86c482d5" />
+
+
 - 1, Enter.
 
 ```bash
