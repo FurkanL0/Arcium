@@ -9,6 +9,7 @@
 | **RAM**          | 32++ GB                    |
 | **Disk**      | 50 GB+ NVME GB SDD                   |
 | **Internet Hızı**      | 1 Gbps+  |
+| **Ubuntu**      | Ubuntu 24.04++  |
 
 
 | Server         | Link              | Features |
