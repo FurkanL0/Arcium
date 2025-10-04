@@ -1,5 +1,8 @@
 # Arcium
 
+![GnDA1e4a0AAjJSQ](https://github.com/user-attachments/assets/bdc8dd66-1cfa-4201-ac4c-de1be1b8ba63)
+
+
 | X        | Minimum              |
 |------------------|----------------------------|
 | **CPU**          | 12++ |
