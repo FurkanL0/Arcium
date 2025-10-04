@@ -249,3 +249,14 @@ solana airdrop 2 <callback-pubkey> -u devnet
 - Hata alırsanız siteden alabilirsiniz benim gibi - Githubla giriş yapmadan alamazsınız. ; https://faucet.solana.com/
 
 <img width="1211" height="944" alt="image" src="https://github.com/user-attachments/assets/4eaf57a6-4392-4c57-8590-c49d5020f581" />
+
+## Init İşlemleri 
+
+- Bize RPC lazım - Ben Helius Free kullancam yeterli olur demişler ; https://dashboard.helius.dev/
+
+- QuickNode'dee Kullanabilirsiniz Demişler : https://www.quicknode.com/
+
+- Sağlacılarınızda Api Key alırken Devnet'in Api'sini almayı unutmayın ; 
+
+<img width="1892" height="472" alt="image" src="https://github.com/user-attachments/assets/0c38372b-4f8c-42b0-abae-508f0e876831" />
+
