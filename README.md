@@ -316,3 +316,15 @@ commitment.commitment = "confirmed"
 <img width="946" height="716" alt="image" src="https://github.com/user-attachments/assets/6b3f8a5f-fff2-4190-a409-0d648661d6a3" />
 
 - CTRL X - CTRL Y - Enter Kayıt Ediliyor.
+
+## Şimdi 2 Seçenek var - Kümey Dahil Olmak - Yada Kendi Kümenin Olması , Furkan Hangisi Mantıklı Dersen inan Bilmiyorum ben kendi kümemi kurdum ; 
+
+```bash
+arcium init-cluster \
+  --keypair-path node-keypair.json \
+  --offset <cluster-offset> \
+  --max-nodes 10 \
+  --rpc-url https://api.devnet.solana.com
+```
+
+  - <cluster-offset> yerine düğüm ofsetinizden farklı ve benzersiz başka bir büyük rastgele sayı seçin. <max-nodes> yerine kümenizin maksimum düğüm sayısını yazın (örnekte 10).
