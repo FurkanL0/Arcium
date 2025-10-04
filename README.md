@@ -170,6 +170,9 @@ curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/
 
 <img width="625" height="510" alt="image" src="https://github.com/user-attachments/assets/f9651049-6f23-4024-8df7-f915503b3eb6" />
 
+<img width="410" height="176" alt="image" src="https://github.com/user-attachments/assets/c8d02ef1-d364-4dba-9c44-8bd5e3bfc5d8" />
+
+
 - Veriyon Kontrol 
 
 ```bash
@@ -177,10 +180,72 @@ arcium --version
 arcup --version
 ```
 
+<img width="515" height="89" alt="image" src="https://github.com/user-attachments/assets/d24651fa-6abb-4c36-b34e-ba8dba859f37" />
+
+## Node Auth Key
+
+- TÜM KELİMELERİ VB. KAYIT EDİN ÖNEMLİ !
+
 ```bash
-curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
+solana-keygen new --outfile node-keypair.json --no-bip39-passphrase
+```
+
+<img width="918" height="162" alt="image" src="https://github.com/user-attachments/assets/e978753b-9de6-4376-9196-225c5094e926" />
+
+## Geri Çağırma (Callback) Key
+
+```bash
+solana-keygen new --outfile callback-kp.json --no-bip39-passphrase
+```
+
+<img width="891" height="161" alt="image" src="https://github.com/user-attachments/assets/da9c890f-eae3-46b9-972a-9c0adde3e0ea" />
+
+
+## Kimlik (Identity) Key 
+
+```bash
+openssl genpkey -algorithm Ed25519 -out identity.pem
+```
+
+<img width="811" height="85" alt="image" src="https://github.com/user-attachments/assets/2c41c8f2-d6f7-4b93-baf2-d470488b7f78" />
+
+- Sunucunuza FTP yada Termius'daki gibi SFTP olarak bağlanıp bu dosyaların tümünü yedek alın.
+
+<img width="1670" height="285" alt="image" src="https://github.com/user-attachments/assets/339888c1-3a9d-488a-865b-5c9f44962e5b" />
+
+## Cüzdanları Dolduralım ; 
+```bash
+solana address --keypair node-keypair.json
 ```
 
 ```bash
-curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
+solana address --keypair callback-kp.json
 ```
+
+- 2 Cüzdan Adresinizde Kaydedin.
+
+<img width="920" height="105" alt="image" src="https://github.com/user-attachments/assets/83754d9b-23b0-4c59-8a42-983c7f945a8d" />
+
+## Testnet Tokeni Alalım
+
+- Burada <node-pubkey> alanına node keypair'in adresi yapıştırıcaz örnek benimki : solana airdrop 2 2vttqQh2vaCipSMtxHZswh1thSVARw1JXRhZeG6Fwj4b -u devnet
+
+```bash
+solana airdrop 2 <node-pubkey> -u devnet
+```
+
+- Faucet kullanıldığından Rate Limit hatası vardı 2. denemede aldı.
+
+<img width="1172" height="176" alt="image" src="https://github.com/user-attachments/assets/dcbf420f-735d-4d93-a5f2-bca509e999d8" />
+
+- Burada <callback-pubkey> alanına call back'in adresi yapıştırıcaz örnek benimki : solana airdrop 2 BP6edbgweoK4rZYsdYjChiBT8dJjzpm6b9rhyFbB7fHJ -u devnet
+
+```bash
+solana airdrop 2 <callback-pubkey> -u devnet
+```
+
+<img width="1217" height="265" alt="image" src="https://github.com/user-attachments/assets/8d22e161-8ca8-4245-a43f-f019bf8b0879" />
+
+- Hata alırsanız siteden alabilirsiniz benim gibi - Githubla giriş yapmadan alamazsınız. ; https://faucet.solana.com/
+
+<img width="1211" height="944" alt="image" src="https://github.com/user-attachments/assets/4eaf57a6-4392-4c57-8590-c49d5020f581" />
