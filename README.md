@@ -151,8 +151,13 @@ ldconfig
 openssl version
 ```
 
-```bash
+## Arcium Kurulum
 
+- Dosyaları Oluşturalım
+
+```bash
+mkdir arcium-node-setup
+cd arcium-node-setup
 ```
 
 ```bash
