@@ -160,6 +160,27 @@ mkdir arcium-node-setup
 cd arcium-node-setup
 ```
 
-```bash
+- Sunucunuzun IP Adresini unutmayın.
 
+## Arcium Tooling
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
+```
+
+<img width="625" height="510" alt="image" src="https://github.com/user-attachments/assets/f9651049-6f23-4024-8df7-f915503b3eb6" />
+
+- Veriyon Kontrol 
+
+```bash
+arcium --version
+arcup --version
+```
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
+```
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSfL https://arcium-install.arcium.workers.dev/ | bash
 ```
