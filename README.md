@@ -260,3 +260,23 @@ solana airdrop 2 <callback-pubkey> -u devnet
 
 <img width="1892" height="472" alt="image" src="https://github.com/user-attachments/assets/0c38372b-4f8c-42b0-abae-508f0e876831" />
 
+- Keyimizi Config'e ekleyelim örnek ;
+
+```bash
+solana config set --url https://devnet.helius-rpc.com/?api-key=gel-yanima-gel-gel-neset-ertas
+```
+
+<img width="437" height="126" alt="image" src="https://github.com/user-attachments/assets/1b4e0301-5954-4670-9dbd-694cacb3dfc9" />
+
+
+## Önemli Kısım ; 
+
+```bash
+arcium init-arx-accs \
+  --keypair-path node-keypair.json \
+  --callback-keypair-path callback-kp.json \
+  --peer-keypair-path identity.pem \
+  --node-offset <your-node-offset> \
+  --ip-address <your-node-ip> \
+  --rpc-url https://api.devnet.solana.com
+```
