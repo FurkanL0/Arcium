@@ -350,3 +350,23 @@ mkdir -p arx-node-logs && touch arx-node-logs/arx.log
 
 <img width="1017" height="61" alt="image" src="https://github.com/user-attachments/assets/d97c470d-717a-4e40-9404-0d641b1ad226" />
 
+
+## Docker Run ; 
+
+```bash
+docker run -d \
+  --name arx-node \
+  -e NODE_IDENTITY_FILE=/usr/arx-node/node-keys/node_identity.pem \
+  -e NODE_KEYPAIR_FILE=/usr/arx-node/node-keys/node_keypair.json \
+  -e OPERATOR_KEYPAIR_FILE=/usr/arx-node/node-keys/operator_keypair.json \
+  -e CALLBACK_AUTHORITY_KEYPAIR_FILE=/usr/arx-node/node-keys/callback_authority_keypair.json \
+  -e NODE_CONFIG_PATH=/usr/arx-node/arx/node_config.toml \
+  -v "$(pwd)/node-config.toml:/usr/arx-node/arx/node_config.toml" \
+  -v "$(pwd)/node-keypair.json:/usr/arx-node/node-keys/node_keypair.json:ro" \
+  -v "$(pwd)/node-keypair.json:/usr/arx-node/node-keys/operator_keypair.json:ro" \
+  -v "$(pwd)/callback-kp.json:/usr/arx-node/node-keys/callback_authority_keypair.json:ro" \
+  -v "$(pwd)/identity.pem:/usr/arx-node/node-keys/node_identity.pem:ro" \
+  -v "$(pwd)/arx-node-logs:/usr/arx-node/logs" \
+  -p 8080:8080 \
+  arcium/arx-node
+  ```
