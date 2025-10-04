@@ -289,3 +289,8 @@ arcium init-arx-accs \
 
 <img width="943" height="284" alt="image" src="https://github.com/user-attachments/assets/4644d947-e2d8-49c6-8b80-3a300e50ac10" />
 
+## Yapılandırma İşlemleri ; 
+
+```bash
+nano node-config.toml
+```
