@@ -294,3 +294,19 @@ arcium init-arx-accs \
 ```bash
 nano node-config.toml
 ```
+```bash
+[node]
+offset = <your-node-offset>  # Adım kullandığınız düğüm kimlik numarası offset'te random seçtiğimiz
+hardware_claim = 0
+starting_epoch = 0
+ending_epoch = 9223372036854775807
+
+[network]
+address = "0.0.0.0" # NAT/Güvenlik duvarı arkasında güvenilirlik için tüm arayüzlere bağlan
+
+[solana]
+endpoint_rpc = "https://api.devnet.solana.com"
+endpoint_wss = "wss://api.devnet.solana.com"
+cluster = "Devnet"
+commitment.commitment = "confirmed"
+```
