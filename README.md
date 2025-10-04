@@ -388,4 +388,18 @@ arcium arx-active <your-node-offset> --rpc-url https://api.devnet.solana.com
 
 <img width="844" height="117" alt="image" src="https://github.com/user-attachments/assets/65b22bfb-4c80-49a1-9996-4b615109d8dc" />
 
+- Docker Log'lar ; 
+```bash
+docker logs -f arx-node
+```
+
+- Tail Log'lar ; 
+```bash
+cd ~/arcium-node-setup/arx-node-logs
+```
+```bash
+tail -f dosyaismi.log
+```
+<img width="1416" height="270" alt="image" src="https://github.com/user-attachments/assets/c40253e9-b7ac-43d0-bb97-c6fa1ce1defb" />
+
 
