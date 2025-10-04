@@ -71,3 +71,24 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```bash
 source $HOME/.cargo/env
 ```
+
+## Solana CLI ; 
+```bash
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
+```
+
+- Başarılı Bir Kurulum Sonrası Böyle Gözükecek : 
+
+```bash
+Installed Versions:
+Rust: rustc 1.86.0 (05f9846f8 2025-03-31)
+Solana CLI: solana-cli 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
+Anchor CLI: anchor-cli 0.31.1
+Node.js: v23.11.0
+Yarn: 1.22.1
+```
+
+- Version Kontrolü 
+```bash
+rustc --version && solana --version && anchor --version && node --version && yarn --version
+```
