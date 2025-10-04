@@ -370,3 +370,5 @@ docker run -d \
   -p 8080:8080 \
   arcium/arx-node
   ```
+
+<img width="837" height="330" alt="image" src="https://github.com/user-attachments/assets/75e36310-7ad2-421e-9b82-68007dc5ce45" />
