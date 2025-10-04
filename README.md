@@ -80,6 +80,9 @@ source $HOME/.cargo/env
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 ```
 
+<img width="498" height="206" alt="image" src="https://github.com/user-attachments/assets/29828be5-87e7-4c83-b1c4-8c0f9013832a" />
+
+
 - Başarılı Bir Kurulum Sonrası Böyle Gözükecek : 
 
 ```bash
