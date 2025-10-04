@@ -310,3 +310,9 @@ endpoint_wss = "wss://api.devnet.solana.com"
 cluster = "Devnet"
 commitment.commitment = "confirmed"
 ```
+
+- Örnek ( WSS'de Helius'da Bulunuyor ; 
+
+<img width="946" height="716" alt="image" src="https://github.com/user-attachments/assets/6b3f8a5f-fff2-4190-a409-0d648661d6a3" />
+
+- CTRL X - CTRL Y - Enter Saved.
