@@ -102,3 +102,59 @@ Yarn: 1.22.1
 ```bash
 rustc --version && solana --version && anchor --version && node --version && yarn --version
 ```
+
+<img width="924" height="95" alt="image" src="https://github.com/user-attachments/assets/2dac1954-a0c6-439b-8e24-ba742e15fac6" />
+
+
+- Solana komutu yok hatası alırsanız sunucudan çıkan bir daha girip deneyin Shell ( terminal'in ) yenilenmesi lazım arada oluyo.
+
+## OpenSSL ; 
+```bash
+sudo apt update
+sudo apt install build-essential checkinstall git zlib1g-dev -y
+```
+
+```bash
+cd /usr/local/src
+sudo wget https://www.openssl.org/source/openssl-3.5.4.tar.gz
+```
+
+```bash
+sudo tar -xzf openssl-3.5.4.tar.gz
+cd openssl-3.5.4
+```
+
+```bash
+sudo ./Configure --prefix=/usr/local/openssl --openssldir=/usr/local/openssl shared zlib
+```
+
+<img width="1101" height="404" alt="image" src="https://github.com/user-attachments/assets/1a8bef03-0639-4253-bd96-67b5885939d5" />
+
+
+```bash
+sudo make -j$(nproc)
+sudo make install
+```
+
+- Bu aşama hızlı sunucularda 4 ila 10 dakika arası sürer. Ona göre hesap yapın 
+
+```bash
+sudo ln -sf /usr/local/openssl/bin/openssl /usr/bin/openssl
+```
+
+```bash
+echo "/usr/local/openssl/lib64" > /etc/ld.so.conf.d/openssl-3.5.4.conf
+ldconfig
+```
+
+```bash
+openssl version
+```
+
+```bash
+
+```
+
+```bash
+
+```
