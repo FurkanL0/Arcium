@@ -403,3 +403,17 @@ tail -f dosyaismi.log
 <img width="1416" height="270" alt="image" src="https://github.com/user-attachments/assets/c40253e9-b7ac-43d0-bb97-c6fa1ce1defb" />
 
 
+## Birine Katılmak İsterseen ; 
+
+```bash
+arcium join-cluster true \
+  --keypair-path node-keypair.json \
+  --node-offset <your-node-offset> \
+  --cluster-offset <cluster-offset> \
+  --rpc-url https://api.devnet.solana.com
+```
+
+- Karşı taraftan davet almanız lazım.
+- Node offset sizin offset.
+- Cluster karşının node offset
+- RPC'niz sizin RPC'niz.
