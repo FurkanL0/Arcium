@@ -338,3 +338,9 @@ arcium init-cluster \
 ```bash
 sudo ufw allow 8080/tcp
 ```
+
+## Başaracağız Az Kaldı Log Dizini Ve Hazırlık 
+
+```bash
+mkdir -p arx-node-logs && touch arx-node-logs/arx.log
+```
