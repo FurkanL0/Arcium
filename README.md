@@ -95,6 +95,9 @@ Node.js: v23.11.0
 Yarn: 1.22.1
 ```
 
+<img width="548" height="439" alt="image" src="https://github.com/user-attachments/assets/ede58642-899e-4fa1-bdf7-06a7a25149ea" />
+
+
 - Version Kontrolü 
 ```bash
 rustc --version && solana --version && anchor --version && node --version && yarn --version
