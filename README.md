@@ -328,3 +328,8 @@ arcium init-cluster \
 ```
 
   - <cluster-offset> yerine düğüm ofsetinizden farklı ve benzersiz başka bir büyük rastgele sayı seçin. <max-nodes> yerine kümenizin maksimum düğüm sayısını yazın (örnekte 10).
+
+  - Örnek ; 
+
+  <img width="916" height="151" alt="image" src="https://github.com/user-attachments/assets/4d7ab408-fd19-4607-a94a-e3ffa9e0c59a" />
+
